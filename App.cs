@@ -5,9 +5,8 @@ Console.WriteLine("Hello, World!");
 
 namespace Empresa
 {  
-    internal public class 
+    public class App 
     {
-        protected int Rut;
         
     }
     
