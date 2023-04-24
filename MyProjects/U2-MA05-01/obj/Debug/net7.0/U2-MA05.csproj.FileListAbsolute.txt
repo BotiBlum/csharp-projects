@@ -1,0 +1,15 @@
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/bin/Debug/net7.0/U2-MA05
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/bin/Debug/net7.0/U2-MA05.deps.json
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/bin/Debug/net7.0/U2-MA05.runtimeconfig.json
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/bin/Debug/net7.0/U2-MA05.dll
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/bin/Debug/net7.0/U2-MA05.pdb
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/U2-MA05.csproj.AssemblyReference.cache
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/U2-MA05.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/U2-MA05.AssemblyInfoInputs.cache
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/U2-MA05.AssemblyInfo.cs
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/U2-MA05.csproj.CoreCompileInputs.cache
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/U2-MA05.dll
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/refint/U2-MA05.dll
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/U2-MA05.pdb
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/U2-MA05.genruntimeconfig.cache
+/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/Debug/net7.0/ref/U2-MA05.dll
