@@ -8,7 +8,7 @@ namespace Universidad
     public class Docente: Empleado
     {
         
-        public class Docente
+        public Docente()
         {
             
         }
