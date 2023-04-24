@@ -18,8 +18,8 @@ namespace Universidad
             this.rut = new Rut();
             this.name = "Sin Asignar";
             this.lastname = "Sin Asignar";
-            this.gender = "X"; // F, M
-            this.maritalStatus = "X"; // S,C D,V
+            this.gender = 'X'; // F, M
+            this.maritalStatus = 'X'; // S,C D,V
             this.fechaNac = new Fecha();
 
         }
