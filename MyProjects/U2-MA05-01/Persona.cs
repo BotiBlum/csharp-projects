@@ -8,14 +8,18 @@ namespace Universidad
     {
         private string name;
         private string lastname;
-        private Rut rut;
+        protected Rut rut;
         private Fecha fechaNac;
+        private char gender;
+        private char maritalStatus;
 
         public Persona()
         {
+            this.rut = new Rut();
             this.name = "Sin Asignar";
             this.lastname = "Sin Asignar";
-            this.rut = new Rut();
+            this.gender = "X"; // F, M
+            this.maritalStatus = "X"; // S,C D,V
             this.fechaNac = new Fecha();
 
         }
