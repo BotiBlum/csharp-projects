@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/U2-MA05.csproj",
+      "projectUniqueName": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-01/U2-MA05.csproj",
       "projectName": "U2-MA05",
-      "projectPath": "/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/U2-MA05.csproj",
+      "projectPath": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-01/U2-MA05.csproj",
       "packagesPath": "/Users/pablo/.nuget/packages/",
-      "outputPath": "/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05/obj/",
+      "outputPath": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-01/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/pablo/.nuget/NuGet/NuGet.Config"
