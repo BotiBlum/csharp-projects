@@ -5,8 +5,12 @@ using System.Text;
 
 namespace Universidad
 {
-    public class Docente
+    public class Docente: Empleado
     {
         
+        public class Docente
+        {
+            
+        }
     }
 }

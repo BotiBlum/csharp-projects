@@ -4,9 +4,14 @@ using System.Text;
 
 namespace Universidad
 {
-    public class Administrativo
+    public class Administrativo: Empleado
     {
         private List<string> jornada;
         private double bono;
+
+        public Administrativo() : base()
+        {
+            
+        }
     }   
 }

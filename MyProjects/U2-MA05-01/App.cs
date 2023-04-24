@@ -27,6 +27,14 @@
             Empleado em3 = new Empleado(p2, 650,"Pilot",7990000);
             Console.WriteLine(em3);
 
+            Estudiante student1;
+            // Console.WriteLine("Alumno nuevo: "+ student1.ToString());
+            Rut r2 = new Rut(26124779, '8');
+            student1 = new Estudiante("Vicente", "Vergaray",r2, new Fecha(15,02,2018),1001, "Engineering", 2035);
+            Console.WriteLine("Alumno nuevo: "+ student1.ToString());
+            //student1.RutPersona(16775865, '7');
+
+ 
         }
  
     }
