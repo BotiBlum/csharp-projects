@@ -47,6 +47,11 @@ namespace Universidad
             rut = _p.rut;
             fechaNac = _p.fechaNac;
         }
+
+        public void RutPersona(Rut _rut)
+        {
+            rut = _rut;
+        }
         
 
         public override string ToString()
