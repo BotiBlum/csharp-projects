@@ -24,14 +24,28 @@ namespace Universidad
             id = _id;
             salary = _salary;
         }
+        
+        public Empleado(string _name, string _lastname, Rut _rut, Fecha _fechaNac, int _id,string _field, int _salary): base (_name, _lastname, _rut, _fechaNac)
+        {
+            field = _field;
+            id = _id;
+            salary = _salary;
+        }
+        
+        public Empleado(Persona _persona,int _id,string _field, int _salary): base (_persona)
+        {
+            field = _field;
+            id = _id;
+            salary = _salary;
+        }
 
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
-            s.Append(base.ToString()+" ");
-            s.Append(field);
-            s.Append(", ");
+            s.Append(base.ToString()+", ");
             s.Append(id);
+            s.Append(", ");
+            s.Append(field);
             s.Append(", ");
             s.Append(salary);
 

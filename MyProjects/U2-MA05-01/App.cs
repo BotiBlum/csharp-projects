@@ -18,6 +18,15 @@
             Console.WriteLine();
             Console.WriteLine(em1.ToString());
             Console.WriteLine(em2.ToString());
+
+            Fecha f1= new Fecha(06,03,2014);
+            Console.WriteLine(f1.ToString());
+
+            Persona p2 = new Persona("Sofia", "Vergaray", new Rut(24555820, '1'), f1);      
+            Console.WriteLine(p2);
+            Empleado em3 = new Empleado(p2, 650,"Pilot",7990000);
+            Console.WriteLine(em3);
+
         }
  
     }
