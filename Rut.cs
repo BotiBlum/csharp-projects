@@ -1,19 +1,19 @@
 using System;
 using System.Text;
 
-namespace Empresa
+namespace Universidad
 {
     public class Rut
     {
         private int rut;
-        private string dv;
+        private char dv;
 
         public Rut()
         {
             this.rut = 12345678;
-            this.dv = "0";
+            this.dv = '0';
         }
-        public Rut(int _rut, string _dv)
+        public Rut(int _rut, char _dv)
         {
             rut = _rut;
             dv = _dv;

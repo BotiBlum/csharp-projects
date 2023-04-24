@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 
 
-namespace Empresa
+namespace Universidad
 {
     public class Empleado : Persona
     {

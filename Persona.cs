@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.IO;
 
-namespace Empresa
+namespace Universidad
 {
     public class Persona
     {
