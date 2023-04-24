@@ -25,11 +25,6 @@ namespace Universidad
             dv = _r.dv;
         }
 
-        public void RutPersona(int _rut, char _dv)
-        {
-            rut = _rut;
-            dv = _dv;
-        }
 
         public override string ToString()
         {

@@ -33,6 +33,10 @@
             student1 = new Estudiante("Vicente", "Vergaray",r2, new Fecha(15,02,2018),1001, "Engineering", 2035);
             Console.WriteLine("Alumno nuevo: "+ student1.ToString());
             //student1.RutPersona(16775865, '7');
+            Rut r3 = new Rut(21234678, '8');
+            student1.RutPersona(r3);
+            Console.WriteLine(r3.ToString());
+
 
  
         }
