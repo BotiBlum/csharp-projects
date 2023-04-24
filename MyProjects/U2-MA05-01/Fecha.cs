@@ -6,6 +6,8 @@ namespace Universidad
 {
     public class Fecha
     {
-        
+        private int day;
+        private int month;
+        private int year;
     }
 }

@@ -6,6 +6,7 @@ namespace Universidad
 {
     public class Administrativo
     {
-        
+        private List<string> jornada;
+        private double bono;
     }   
 }

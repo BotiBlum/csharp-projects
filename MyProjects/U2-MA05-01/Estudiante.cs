@@ -6,6 +6,13 @@ namespace Universidad
 {
     public class Estudiante
     {
+        private int numMatricular;
+        private List<Carrera> carrera;
+        
+    }
+
+    public class Carrera
+    {
         
     }
 }
