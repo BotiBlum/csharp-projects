@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05-02/U2-MA05-02.csproj": {}
+    "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj": {}
   },
   "projects": {
-    "/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05-02/U2-MA05-02.csproj": {
+    "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05-02/U2-MA05-02.csproj",
+        "projectUniqueName": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj",
         "projectName": "U2-MA05-02",
-        "projectPath": "/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05-02/U2-MA05-02.csproj",
+        "projectPath": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj",
         "packagesPath": "/Users/pablo/.nuget/packages/",
-        "outputPath": "/Users/pablo/Git/botiblum.github.io/MyProjects/U2-MA05-02/obj/",
+        "outputPath": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pablo/.nuget/NuGet/NuGet.Config"
