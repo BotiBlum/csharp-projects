@@ -25,9 +25,12 @@
             Empleado em3 = new Empleado(p2, 650,"Pilot",7990000);
             Empleado em4 = new Empleado(p3, 1254,"Navy Seal",3990000);
 
-            Administrativo adm1 = new Administrativo(20m,em3, p2);
-            Administrativo adm2 = new Administrativo(18m,em4);
+            Administrativo adm1 = new Administrativo(20m,em3, p2); // Administrativo.cs line 24
+            Administrativo adm2 = new Administrativo(18m,em4);  // Administrativo.cs line 30
+            Administrativo adm3 = new Administrativo(18m,em4);  // Administrativo.cs line 30
 
+            Jornada Completa = new Jornada();
+            
 
 
             Console.WriteLine("Rut1: "+r1.ToString());

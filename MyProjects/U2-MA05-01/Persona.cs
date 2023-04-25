@@ -29,6 +29,15 @@ namespace Universidad
             name = _name;
             lastname = _lastname;
             rut = _rut;
+            //gender = _gender;
+        }
+        public Persona(string _name, string _lastname, char _gender, char _marital, Rut _rut)
+        {
+            name = _name;
+            lastname = _lastname;
+            rut = _rut;
+            gender = _gender;
+            maritalStatus = _marital;
         }
 
 

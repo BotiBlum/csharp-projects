@@ -25,9 +25,16 @@ namespace Universidad
         {
             bono = _bono;
         }
+
+
         public Administrativo(decimal _bono, Empleado _emp) : base (_emp, _emp.getPersona())
         {
             bono = _bono;
+        }
+        public Administrativo(decimal _bono, Empleado _emp, List<Jornada> _jorn) : base (_emp, _emp.getPersona())
+        {
+            bono = _bono;
+            jornada = _jorn;
         }
 
         
