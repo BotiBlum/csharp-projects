@@ -42,7 +42,7 @@ namespace Universidad
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
-            s.Append(base.ToString()+" ");
+            s.Append(base.ToString()+" // ");
             s.Append(numMatricular);
             s.Append(", ");
             s.Append(carrera);

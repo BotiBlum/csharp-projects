@@ -7,10 +7,12 @@ namespace Universidad
 {
     public class Docente: Empleado
     {
-        
-        public Docente()
+        private int sueldo;
+        public Docente() : base()
         {
-            
+            this.sueldo = 0;
         }
+
+        
     }
 }

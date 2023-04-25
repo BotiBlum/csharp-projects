@@ -39,6 +39,23 @@ namespace Universidad
             salary = _salary;
         }
 
+        public Empleado(Empleado _emp){
+
+            field = _emp.field;
+            id = _emp.id;
+            salary = _emp.salary;
+        }
+
+        // Draft
+        public Empleado(Empleado _emp, Persona _pers) : base (_pers)
+        {
+
+            field = _emp.field;
+            id = _emp.id;
+            salary = _emp.salary;
+        }
+        ///
+
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
@@ -51,6 +68,12 @@ namespace Universidad
 
             return s.ToString();
         }
+
+        /*
+        public Empleado getPersona(Empleado _emp){
+
+            return this;
+        }*/
 
     }
 }

@@ -52,6 +52,15 @@ namespace Universidad
         {
             rut = _rut;
         }
+        public Rut getRutPersona(){   // Getter de tipo Clase 
+
+            return rut;
+        }
+
+        public Persona getPersona()
+        {
+            return this;
+        }
         
 
         public override string ToString()
