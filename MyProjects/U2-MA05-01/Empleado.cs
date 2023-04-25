@@ -59,12 +59,12 @@ namespace Universidad
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
-            s.Append(base.ToString()+", ");
-            s.Append(id);
+            s.Append(base.ToString()+", Empleado: ");
+            s.Append("ID:"+id);
             s.Append(", ");
-            s.Append(field);
+            s.Append("Field: "+field);
             s.Append(", ");
-            s.Append(salary);
+            s.Append("Salary: "+salary);
 
             return s.ToString();
         }

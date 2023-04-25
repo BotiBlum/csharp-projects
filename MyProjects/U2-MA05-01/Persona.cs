@@ -20,7 +20,8 @@ namespace Universidad
             this.lastname = "Sin Asignar";
             this.gender = 'X'; // F, M
             this.maritalStatus = 'X'; // S,C D,V
-            this.fechaNac = new Fecha();
+            this.fechaNac = new Fecha(0,0,0);
+            
 
         }
 
@@ -29,7 +30,7 @@ namespace Universidad
             name = _name;
             lastname = _lastname;
             rut = _rut;
-            //gender = _gender;
+            this.fechaNac = new Fecha(0,0,0);
         }
         public Persona(string _name, string _lastname, char _gender, char _marital, Rut _rut)
         {
@@ -75,13 +76,15 @@ namespace Universidad
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
-            s.Append(name);
+            s.Append("Persona: ");
+            s.Append("Name: "+name);
             s.Append(" ");
-            s.Append(lastname);
+            s.Append("Lastname: "+lastname);
             s.Append(", ");
-            s.Append(rut);
+            s.Append("RUT: "+rut);
             s.Append(", ");
-            s.Append(fechaNac);
+            s.Append("Birth Date: "+fechaNac);
+            Console.WriteLine("Persona String: "+s.ToString());
             return s.ToString();
         }
 

@@ -15,29 +15,15 @@ namespace Universidad
             this.bono = 0m;
             this.jornada = new List<Jornada>();
         }
-/*
-        public Administrativo(decimal _bono, Empleado _emp) : base (_emp)
-        {
-            bono = _bono;
-        }*/
-
         public Administrativo(decimal _bono, Empleado _emp, Persona _pers) : base (_emp, _pers)
         {
             bono = _bono;
         }
-
-
         public Administrativo(decimal _bono, Empleado _emp) : base (_emp, _emp.getPersona())
         {
+            Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
             bono = _bono;
-        }
-        public Administrativo(decimal _bono, Empleado _emp, List<Jornada> _jorn) : base (_emp, _emp.getPersona())
-        {
-            bono = _bono;
-            jornada = _jorn;
-        }
-
-        
+        } 
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
