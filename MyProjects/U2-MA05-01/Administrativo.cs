@@ -8,12 +8,10 @@ namespace Universidad
     {
        // private List<string> jornada;
         private decimal bono;
-        private List<Jornada> jornada;
 
         public Administrativo() : base()
         {
             this.bono = 0m;
-            this.jornada = new List<Jornada>();
         }
         public Administrativo(decimal _bono, Empleado _emp, Persona _pers) : base (_emp, _pers)
         {
