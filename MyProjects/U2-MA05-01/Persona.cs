@@ -39,6 +39,7 @@ namespace Universidad
             rut = _rut;
             gender = _gender;
             maritalStatus = _marital;
+            fechaNac = new Fecha(0,0,0);
         }
 
 
