@@ -3,7 +3,7 @@
     public class App 
     {
 
-        public static void Main(string[] args)
+        public static void Main_(string[] args)
         {
             Rut r1 = new Rut(16745815, '3');
             Rut r2 = new Rut(22164779, '8');

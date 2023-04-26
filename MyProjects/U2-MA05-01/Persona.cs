@@ -71,20 +71,24 @@ namespace Universidad
         {
             return this;
         }
+        public string getName()
+        {
+            return name;
+        }
         
 
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
-            s.Append("Persona: ");
-            s.Append("Name: "+name);
+            s.Append("Persona ");
+            s.Append("\nName: "+name);
             s.Append(" ");
-            s.Append("Lastname: "+lastname);
+            s.Append("\nLastname: "+lastname);
             s.Append(", ");
-            s.Append("RUT: "+rut);
+            s.Append("\nRUT: "+rut);
             s.Append(", ");
-            s.Append("Birth Date: "+fechaNac);
-            Console.WriteLine("Persona String: "+s.ToString());
+            s.Append("\nBirth Date: "+fechaNac);
+          //  Console.WriteLine("Persona String: "+s.ToString());
             return s.ToString();
         }
 

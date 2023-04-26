@@ -69,6 +69,10 @@ namespace Universidad
             return s.ToString();
         }
 
+        public int getID(){
+            return id;
+        }
+
         /*
         public Empleado getPersona(Empleado _emp){
 
