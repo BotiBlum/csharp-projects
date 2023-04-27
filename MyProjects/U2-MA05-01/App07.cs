@@ -25,13 +25,12 @@ namespace Universidad
             listaObjectos.Add(987652345674345465);
             listaObjectos.Add("anything");
             listaObjectos.Add(true);
-
+            /*
             foreach (Object item in nomina)
             {
                 
                 if (item is Empleado)
                 {   
-                    Console.WriteLine();
                     Console.WriteLine("> "+((Empleado)item).getID());
                 }
             }
@@ -40,7 +39,6 @@ namespace Universidad
                 
                 if (item is Empleado)
                 {   
-                    Console.WriteLine();
                     Console.WriteLine("> "+((Empleado)item).getID());
                 }
             }
@@ -57,9 +55,9 @@ namespace Universidad
             {
                     Console.WriteLine(item.ToString());
                 
-            }
+            }*/
 
-            Console.WriteLine("Persona con Where: "+ nomina.Where(e => e.getName() == "John"));
+            Console.WriteLine("Logic location con Where: "+ nomina.Where(e => e.getName() == "John"));
 
             foreach (Empleado item in nomina.Where(e => e.getName() == "Juan"))
             {
