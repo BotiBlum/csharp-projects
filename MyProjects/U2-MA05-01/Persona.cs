@@ -80,6 +80,7 @@ namespace Universidad
 
         public override string ToString()
         {
+            Console.WriteLine("Parametro clase RUT "+rut);
             StringBuilder s = new StringBuilder();
             s.Append("Persona ");
             s.Append("\nName: "+name);

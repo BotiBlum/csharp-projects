@@ -7,14 +7,50 @@ namespace Universidad
 {
     public class Jornada
     {
-        private List<string> jornada;
-
+        public string NombreJornada {get; set;}
         public Jornada() 
         {
-            this.jornada = new List<string>();
+            Console.WriteLine("WORKS JORNADA BASE");
+           this.NombreJornada = "BASE STRING";
+        }
+        public Jornada(string _jornada) 
+        {
+            Console.WriteLine("WORKS JORNADA STRING ");
+           NombreJornada = _jornada;
+        }
+        public Jornada(Jornada _j)
+        {
+            Console.WriteLine("WORKS JORNADA COPY");
+            NombreJornada = _j.NombreJornada;
         }
         
-/*
+        public override string ToString()
+        {
+            Console.WriteLine("WORKS JORNADA STRING BUILDER");
+            StringBuilder s = new StringBuilder();
+            s.Append(NombreJornada);
+            return s.ToString();
+        }
+        public string getNombreJornada()
+        {
+            Console.WriteLine("WORKS JORNADA GETNAME");
+            return NombreJornada;
+        }
+
+        public void Media()
+        {
+            NombreJornada = "MEDIA";
+        }
+        public void Completa()
+        {
+            NombreJornada = "COMPLETA";
+        }
+
+
+
+
+        
+        /*
         public  Jornada Media()
         {
          //    return jornada[0];
