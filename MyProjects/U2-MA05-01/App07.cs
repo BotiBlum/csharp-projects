@@ -25,7 +25,15 @@ namespace Universidad
             listaObjectos.Add(987652345674345465);
             listaObjectos.Add("anything");
             listaObjectos.Add(true);
+
             /*
+
+            Jornada.Media
+            Media es un Getter que deberia devolver un string con la jornada
+            se puede insertar un foreach dentro del getter para hacer un if y where.
+
+            */
+            
             foreach (Object item in nomina)
             {
                 
@@ -39,7 +47,7 @@ namespace Universidad
                 
                 if (item is Empleado)
                 {   
-                    Console.WriteLine("> "+((Empleado)item).getID());
+                    Console.WriteLine("> "+((Empleado)item).getID()+" "+((Empleado)item).getName());
                 }
             }
 
@@ -55,7 +63,7 @@ namespace Universidad
             {
                     Console.WriteLine(item.ToString());
                 
-            }*/
+            }
 
             Console.WriteLine("Logic location con Where: "+ nomina.Where(e => e.getName() == "John"));
 
