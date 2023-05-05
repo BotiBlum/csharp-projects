@@ -35,23 +35,21 @@ namespace Universidad
             Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
             bono = _bono;
             ejornada = _jornada;
+            if ((EJornada.Completa.Equals(_jornada)))
+            {
+                Console.WriteLine("MATCH");
+            }
+            else 
+            {
+                Console.WriteLine("NOT MATCH");
+            }
         } 
         public void AddJornada(Jornada _jornada) // Have to create first the Jornada string as class.
         {
             Console.WriteLine("Debug Jornada "+_jornada.ToString());
             //jornada.Add(_jornada);
         }
-        /*
-        public void GetJornada()
-        {
-            foreach (Jornada item in jornada)
-            {
-                
-                Console.WriteLine("BUSQUEDA: "+item.ToString());   
 
-            }
-        }
-*/
         public override string ToString()
         {
             Console.WriteLine("Jornadas value on Administrativo: "+jornada);
@@ -64,5 +62,8 @@ namespace Universidad
 
             return s.ToString();
         }
+
+
+
     }   
 }

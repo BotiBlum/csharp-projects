@@ -44,14 +44,15 @@ namespace Universidad
 
 
             //Administrativo adm1 = new Administrativo(12345678,emp1,per1,jornada1);
-            Administrativo adm1 = new Administrativo(12345678,emp1,per1,EJornada.Media);
+          //  Administrativo adm1 = new Administrativo(12345678,emp1,per1,EJornada.Media);
             //Administrativo adm2 = new Administrativo(12345678,emp1,per1);
             //Console.WriteLine("Administrativo 1: "+horario[0].getNombreJornada());
+            Administrativo adm1 = new Administrativo(12345678,emp1,per1,EJornada.Media);
             Console.WriteLine("Administrativo 1: "+adm1);
 
             foreach (Jornada lista in horario)
             {
-                Console.WriteLine("HORARIO JORNADA: "+lista.getNombreJornada());
+               // Console.WriteLine("HORARIO JORNADA: "+lista.getNombreJornada());
             }
 
             /*

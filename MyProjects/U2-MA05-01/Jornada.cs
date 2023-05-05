@@ -59,12 +59,12 @@ namespace Universidad
          //    return jornada[0];
              return jornada;;
         }
-*/   }
-    public enum EJornada
-        {
-            Completa,
-            Media,
-            Parcial
+*/  }
 
-        }
+    public enum EJornada
+    {
+            Completa,
+           Media,
+        Parcial
+    }
 }

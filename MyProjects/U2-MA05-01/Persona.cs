@@ -80,16 +80,15 @@ namespace Universidad
 
         public override string ToString()
         {
-            Console.WriteLine("Parametro clase RUT "+rut);
             StringBuilder s = new StringBuilder();
             s.Append("Persona ");
             s.Append("\nName: "+name);
             s.Append(" ");
-            s.Append("\nLastname: "+lastname);
+            s.Append(" Lastname: "+lastname);
             s.Append(", ");
-            s.Append("\nRUT: "+rut);
+            s.Append(" RUT: "+rut);
             s.Append(", ");
-            s.Append("\nBirth Date: "+fechaNac);
+            s.Append(" Birth Date: "+fechaNac);
           //  Console.WriteLine("Persona String: "+s.ToString());
             return s.ToString();
         }
