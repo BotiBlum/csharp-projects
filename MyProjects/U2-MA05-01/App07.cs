@@ -30,6 +30,7 @@ namespace Universidad
             listaObjectos.Add("anything");
             listaObjectos.Add(true);
             
+            Console.WriteLine("EJORNADA: "+EJornada.Completa);
 
 
             Jornada jornada1 = new Jornada("MEDIA");
@@ -42,9 +43,10 @@ namespace Universidad
             horario.Add(jornada2);
 
 
-            Administrativo adm1 = new Administrativo(12345678,emp1,per1,jornada1);
-            Administrativo adm2 = new Administrativo(12345678,emp1,per1);
-            Console.WriteLine("Administrativo 1: "+horario[0].getNombreJornada());
+            //Administrativo adm1 = new Administrativo(12345678,emp1,per1,jornada1);
+            Administrativo adm1 = new Administrativo(12345678,emp1,per1,EJornada.Media);
+            //Administrativo adm2 = new Administrativo(12345678,emp1,per1);
+            //Console.WriteLine("Administrativo 1: "+horario[0].getNombreJornada());
             Console.WriteLine("Administrativo 1: "+adm1);
 
             foreach (Jornada lista in horario)

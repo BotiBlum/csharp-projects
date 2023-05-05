@@ -9,6 +9,7 @@ namespace Universidad
        // private List<Jornada> jornadas {get; set;}
         private decimal bono;
         private Jornada jornada;
+        private EJornada ejornada;
 
 
         public Administrativo() : base()
@@ -16,6 +17,7 @@ namespace Universidad
             this.bono = 0m;
            // this.jornadas = new List<Jornada>();
            this.jornada = new Jornada();
+           this.ejornada = new EJornada();
         }
         public Administrativo(decimal _bono, Empleado _emp, Persona _pers) : base (_emp, _pers)
         {
@@ -28,11 +30,11 @@ namespace Universidad
             bono = _bono;
         }
 
-        public Administrativo(decimal _bono, Empleado _emp, Persona _pers,Jornada _jornada) : base (_emp, _emp.getPersona())
+        public Administrativo(decimal _bono, Empleado _emp, Persona _pers,EJornada _jornada) : base (_emp, _emp.getPersona())
         {
             Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
             bono = _bono;
-            jornada = _jornada;
+            ejornada = _jornada;
         } 
         public void AddJornada(Jornada _jornada) // Have to create first the Jornada string as class.
         {
@@ -58,7 +60,7 @@ namespace Universidad
             s.Append(", ");
             s.Append("Bonus: "+bono);
             s.Append(", ");
-            s.Append("Jornada: "+jornada);
+            s.Append("Jornada: "+ejornada);
 
             return s.ToString();
         }

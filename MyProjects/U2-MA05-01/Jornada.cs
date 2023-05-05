@@ -13,6 +13,7 @@ namespace Universidad
             Console.WriteLine("WORKS JORNADA BASE");
            this.NombreJornada = "BASE STRING";
         }
+        
         public Jornada(string _jornada) 
         {
             Console.WriteLine("WORKS JORNADA STRING ");
@@ -29,6 +30,8 @@ namespace Universidad
             Console.WriteLine("WORKS JORNADA STRING BUILDER");
             StringBuilder s = new StringBuilder();
             s.Append(NombreJornada);
+            s.Append(EJornada.Completa.ToString());
+            s.Append("TEXT");
             return s.ToString();
         }
         public string getNombreJornada()
@@ -56,5 +59,12 @@ namespace Universidad
          //    return jornada[0];
              return jornada;;
         }
-*/    }
+*/   }
+    public enum EJornada
+        {
+            Completa,
+            Media,
+            Parcial
+
+        }
 }
