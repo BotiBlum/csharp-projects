@@ -42,10 +42,11 @@
             Jornada Completa = new Jornada();
             //Console.WriteLine(Grado.Doctor);
             
+            
             // Guido Rios
             Docente docente1 = new Docente(em5,120,"Master CS");
             docente1.CalcularSueldo(Grado.Magister, 120,.07m, .1114m);
-            
+            /*  DEJAR STANDBY - NO BORRAR
             // John Smith
             Docente docente2 = new Docente(em1,65,Grado.Magister);
             docente2.CalcularSueldo();
@@ -68,8 +69,8 @@
 
             Empleado em6;
             em6 = new Administrativo(0.07m,p2);
-            Console.WriteLine(em6.ToString());
-
+            //Console.WriteLine(em6.ToString());
+            */
 
             /*
             Console.WriteLine("Rut1: "+r1.ToString());
