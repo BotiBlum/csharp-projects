@@ -30,7 +30,8 @@ namespace Universidad
             name = _name;
             lastname = _lastname;
             rut = _rut;
-            this.fechaNac = new Fecha(0,0,0);
+            
+            this.fechaNac = new Fecha(2,3,4);
         }
         public Persona(string _name, string _lastname, char _gender, char _marital, Rut _rut)
         {
@@ -39,7 +40,7 @@ namespace Universidad
             rut = _rut;
             gender = _gender;
             maritalStatus = _marital;
-            fechaNac = new Fecha(0,0,0);
+            fechaNac = new Fecha(1,1,1);
         }
 
 
@@ -81,8 +82,8 @@ namespace Universidad
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
-            s.Append("Persona ");
-            s.Append("\nName: "+name);
+           // s.Append("Persona ");
+            s.Append("Name: "+name);
             s.Append(" ");
             s.Append(" Lastname: "+lastname);
             s.Append(", ");

@@ -64,7 +64,7 @@ namespace Universidad
             s.Append(", ");
             s.Append("Field: "+field);
             s.Append(", ");
-            s.Append("Salary: "+salary);
+            s.Append("Base Salary: $"+salary);
 
             return s.ToString();
         }
@@ -72,12 +72,16 @@ namespace Universidad
         public int getID(){
             return id;
         }
+        public int getSalary()
+        {
+            return salary;
+        }
 
-        /*
+        
         public Empleado getPersona(Empleado _emp){
 
             return this;
-        }*/
+        }
 
     }
 }
