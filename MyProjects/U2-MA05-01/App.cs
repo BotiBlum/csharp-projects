@@ -63,7 +63,12 @@
             Docente docente4 = new Docente(em2,45,Grado.Doctor);
             docente4.CalcularSueldo();
 
+            Docente docente7 = new Docente();
+            docente7.CalcularSueldo();
 
+            Empleado em6;
+            em6 = new Administrativo(0.07m,p2);
+            Console.WriteLine(em6.ToString());
 
 
             /*

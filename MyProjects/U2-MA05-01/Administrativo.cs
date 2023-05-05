@@ -20,19 +20,24 @@ namespace Universidad
           // this.jornada = new Jornada();
            this.ejornada = new EJornada();
         }
+        public Administrativo(decimal _bono, Persona _per) : base (_per)
+        {
+          //  Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
+            bono = _bono;
+        }
         public Administrativo(decimal _bono, Empleado _emp, Persona _pers) : base (_emp, _pers)
         {
             bono = _bono;     
         }
         public Administrativo(decimal _bono, Empleado _emp) : base (_emp, _emp.getPersona())
         {
-            Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
+          //  Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
             bono = _bono;
         }
 
         public Administrativo(decimal _bono, Empleado _emp, Persona _pers,EJornada _jornada) : base (_emp, _emp.getPersona())
         {
-            Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
+            //Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
             bono = _bono;
             ejornada = _jornada;
 

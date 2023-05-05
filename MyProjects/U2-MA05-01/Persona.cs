@@ -73,6 +73,10 @@ namespace Universidad
         {
             return this;
         }
+        public Persona getEmpleado()
+        {
+            return this.getEmpleado();
+        }
         public string getName()
         {
             return name;

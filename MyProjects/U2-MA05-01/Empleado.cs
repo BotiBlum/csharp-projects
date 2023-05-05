@@ -11,11 +11,17 @@ namespace Universidad
         private string field;
         private int salary;
 
+        public Empleado(Persona _per) : base(_per)
+        {
+            this.field = "Sin Asignar";
+            this.id = 0000;
+            this.salary = 000000;
+        }
         public Empleado() : base()
         {
             this.field = "Sin Asignar";
             this.id = 0000;
-            this.salary = 999999;
+            this.salary = 000000;
         }
 
         public Empleado(string _name, string _lastname, Rut _rut,int _id,string _field, int _salary): base (_name, _lastname, _rut)
@@ -46,6 +52,7 @@ namespace Universidad
             salary = _emp.salary;
         }
 
+
         // Draft
         public Empleado(Empleado _emp, Persona _pers) : base (_pers)
         {
@@ -54,6 +61,7 @@ namespace Universidad
             id = _emp.id;
             salary = _emp.salary;
         }
+
         ///
 
         public override string ToString()
