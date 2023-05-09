@@ -68,3 +68,4 @@ namespace Universidad
         Parcial
     }
 }
+// Jornada.EJornada.Completa

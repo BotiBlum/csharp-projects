@@ -6,7 +6,7 @@ namespace Universidad
 {
     public class App07
     {
-        public static void Main_()
+        public static void Main()
         {
             Persona per1 = new Persona("Juan", "Perez", new Rut(12345678, '9'),new Fecha(10,12,2001));
             Empleado emp1 = new Empleado(per1, 718,"Sales",750000);
@@ -44,10 +44,10 @@ namespace Universidad
 
 
             //Administrativo adm1 = new Administrativo(12345678,emp1,per1,jornada1);
-          //  Administrativo adm1 = new Administrativo(12345678,emp1,per1,EJornada.Media);
+             Administrativo adm1 = new Administrativo(12345678,emp1,per1,EJornada.Completa);
             //Administrativo adm2 = new Administrativo(12345678,emp1,per1);
             //Console.WriteLine("Administrativo 1: "+horario[0].getNombreJornada());
-            Administrativo adm1 = new Administrativo(0.15m,emp1,per1,EJornada.Media);
+            //Administrativo adm1 = new Administrativo(0.15m,emp1,per1,EJornada.Media);
             Console.WriteLine("adm1: "+adm1);
 
 

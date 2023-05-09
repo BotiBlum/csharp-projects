@@ -10,7 +10,7 @@ namespace Universidad
         private decimal bono;
         private decimal decSalary;
         //private Jornada jornada;
-        private EJornada ejornada;
+        private EJornada ejornada; // Llamo EJornada
 
 
         public Administrativo() : base()
