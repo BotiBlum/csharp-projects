@@ -179,7 +179,7 @@ namespace Universidad
             Console.WriteLine("\nTotal Descuentos: $"+((_Salud)+(_AFP)+_SeguroCesantia));
             //_SueldoLiquido = _TotalHaberes - (_Salud+_AFP+_SeguroCesantia);
             Console.WriteLine("Sueldo A Pagar: $"+_SueldoLiquido.ToString());
-            Console.WriteLine($"Docente: {base.getName()}, {gradoAcademico}, ${_SueldoLiquido.ToString()}");
+            Console.WriteLine($"Docente: {base.getNameLastname()}, {gradoAcademico}, ${_SueldoLiquido.ToString()}");
 
             StringBuilder s = new StringBuilder();
             s.Append(base.ToString());

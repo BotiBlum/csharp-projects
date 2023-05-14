@@ -45,14 +45,6 @@ namespace Universidad
             salary = _salary;
         }
 
-        public Empleado(Empleado _emp){
-
-            field = _emp.field;
-            id = _emp.id;
-            salary = _emp.salary;
-        }
-
-
         // Draft
         public Empleado(Empleado _emp, Persona _pers) : base (_pers)
         {
@@ -83,6 +75,15 @@ namespace Universidad
         public int getSalary()
         {
             return salary;
+        }
+        public void setSalary(int _salary)
+        {
+            salary = _salary;
+        }
+        public override string quienSoy()
+        {
+            return "Soy un empleado";
+            //return base.quienSoy();
         }
 
         

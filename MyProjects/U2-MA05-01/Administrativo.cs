@@ -44,11 +44,27 @@ namespace Universidad
 
             if ((EJornada.Completa.Equals(_jornada)))
             {
-                Console.WriteLine("MATCH");
+              //  Console.WriteLine("MATCH");
             }
             else 
             {
-                Console.WriteLine("NOT MATCH");
+              //  Console.WriteLine("NOT MATCH");
+            }
+        }
+                public Administrativo(Persona _pers,EJornada _jornada, decimal _bono) : base (_pers)
+        {
+            //Console.WriteLine("Constructor por parametros: "+_emp.getPersona());
+            bono = _bono;
+            ejornada = _jornada;
+
+
+            if ((EJornada.Completa.Equals(_jornada)))
+            {
+             //   Console.WriteLine("MATCH");
+            }
+            else 
+            {
+             //   Console.WriteLine("NOT MATCH");
             }
         }
         /* 
@@ -88,7 +104,7 @@ namespace Universidad
              // 0.15 % bono
              //  
             decSalary = Convert.ToDecimal(base.getSalary());
-            Console.WriteLine("Bono a pago: $"+(decSalary*bono).ToString());
+           // Console.WriteLine("Bono a pago: $"+(decSalary*bono).ToString());
             _BonoPagar = Math.Ceiling(decSalary*bono);
            // Console.WriteLine(base.getPersona());
             _TotalHaberes = decSalary+_BonoPagar;
@@ -106,17 +122,22 @@ namespace Universidad
             _TotalDescuentos = _Salud+_AFP+_SeguroCesantia;
             _SueldoLiquido = _TotalHaberes - _TotalDescuentos;
 
-            Console.WriteLine("Total Desc: "+_TotalDescuentos+", Haberes: "+_TotalHaberes+", Total: "+(_TotalHaberes-_TotalDescuentos));
-            Console.WriteLine("\nTotal Descuentos: $"+((_Salud)+(_AFP)+_SeguroCesantia));
+           // Console.WriteLine("Total Desc: "+_TotalDescuentos+", Haberes: "+_TotalHaberes+", Total: "+(_TotalHaberes-_TotalDescuentos));
+           // Console.WriteLine("\nTotal Descuentos: $"+((_Salud)+(_AFP)+_SeguroCesantia));
            // _SueldoLiquido = _TotalHaberes - (_Salud+_AFP+_SeguroCesantia);
            
             
-            Console.WriteLine("Sueldo A Pagar: $"+_SueldoLiquido.ToString());
+          //  Console.WriteLine("Sueldo A Pagar: $"+_SueldoLiquido.ToString());
 
 
 
 
 
+        }
+        public override string quienSoy()
+        {
+            //return base.quienSoy();
+            return "Soy un administrativo";
         }
 
     }

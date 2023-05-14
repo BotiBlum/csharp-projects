@@ -73,13 +73,18 @@ namespace Universidad
         {
             return this;
         }
+        /*
         public Persona getEmpleado()
         {
             return this.getEmpleado();
-        }
-        public string getName()
+        }*/
+        public Fecha getFechaNacimiento()
         {
-            return name;
+            return fechaNac;
+        }
+        public string getNameLastname()
+        {
+            return string.Concat(name+" "+lastname);
         }
         
 
@@ -96,6 +101,10 @@ namespace Universidad
             s.Append(" Birth Date: "+fechaNac);
           //  Console.WriteLine("Persona String: "+s.ToString());
             return s.ToString();
+        }
+        public virtual string quienSoy()
+        {
+            return "Soy una persona";
         }
 
     }
