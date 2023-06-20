@@ -1,0 +1,15 @@
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/bin/Debug/net7.0/Library
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/bin/Debug/net7.0/Library.deps.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/bin/Debug/net7.0/Library.runtimeconfig.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/bin/Debug/net7.0/Library.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/bin/Debug/net7.0/Library.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/Library.csproj.AssemblyReference.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/Library.AssemblyInfoInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/Library.AssemblyInfo.cs
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/Library.csproj.CoreCompileInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/Library.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/refint/Library.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/Library.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/Library.genruntimeconfig.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Library/obj/Debug/net7.0/ref/Library.dll
