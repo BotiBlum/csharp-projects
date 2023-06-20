@@ -52,6 +52,8 @@ namespace Universidad
             Jornada jornada1 = new Jornada("MEDIA");
             Jornada jornada2 = new Jornada();
             List<Jornada> horario = new List<Jornada>();
+
+            
             List<string> agregar = new List<string>();
             agregar.Add("Media");
             agregar.Add("Completa");
@@ -169,7 +171,9 @@ Agrega dos administrativos más y 3 docentes. Realiza las invocaciones para calc
                 Administrativo adm2 = (Administrativo)emp2;
                 //adm2.CalcularSueldo();
                 adm2.CalcularSueldo(.07m,.1114m);
+
             Console.WriteLine("ADM2 CASTING: "+adm2.ToString());
+            
             }
             if (empleadoCoercion is Administrativo)
             {

@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj": {}
+    "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj": {}
   },
   "projects": {
-    "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj": {
+    "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj",
+        "projectUniqueName": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj",
         "projectName": "U2-MA05-02",
-        "projectPath": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj",
-        "packagesPath": "/Users/pablo/.nuget/packages/",
-        "outputPath": "/Users/pablo/Git/botiblum.github.io/csharp-projects/MyProjects/U2-MA05-02/obj/",
+        "projectPath": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U2-MA05-02/U2-MA05-02.csproj",
+        "packagesPath": "/Users/p.vergarayalmontes/.nuget/packages/",
+        "outputPath": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U2-MA05-02/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/pablo/.nuget/NuGet/NuGet.Config"
+          "/Users/p.vergarayalmontes/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
