@@ -129,7 +129,11 @@ namespace Universidad
             
           //  Console.WriteLine("Sueldo A Pagar: $"+_SueldoLiquido.ToString());
 
-
+            StringBuilder s = new StringBuilder();
+            s.Append(base.ToString());
+            s.Append(", ");
+            s.Append("Net Income: $"+_SueldoLiquido);
+            Console.WriteLine(s.ToString());
 
 
 

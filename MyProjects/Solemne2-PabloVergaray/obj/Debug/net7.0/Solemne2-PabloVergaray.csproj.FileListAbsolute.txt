@@ -1,0 +1,15 @@
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/bin/Debug/net7.0/Solemne2-PabloVergaray
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/bin/Debug/net7.0/Solemne2-PabloVergaray.deps.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/bin/Debug/net7.0/Solemne2-PabloVergaray.runtimeconfig.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/bin/Debug/net7.0/Solemne2-PabloVergaray.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/bin/Debug/net7.0/Solemne2-PabloVergaray.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/Solemne2-PabloVergaray.csproj.AssemblyReference.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/Solemne2-PabloVergaray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/Solemne2-PabloVergaray.AssemblyInfoInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/Solemne2-PabloVergaray.AssemblyInfo.cs
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/Solemne2-PabloVergaray.csproj.CoreCompileInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/Solemne2-PabloVergaray.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/refint/Solemne2-PabloVergaray.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/Solemne2-PabloVergaray.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/Solemne2-PabloVergaray.genruntimeconfig.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/Solemne2-PabloVergaray/obj/Debug/net7.0/ref/Solemne2-PabloVergaray.dll

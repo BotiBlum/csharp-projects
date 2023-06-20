@@ -67,6 +67,7 @@
             Docente docente7 = new Docente();
             docente7.CalcularSueldo();
 
+            // COERCION
             Empleado em6;
             em6 = new Administrativo(0.07m,p2);
             //Console.WriteLine(em6.ToString());

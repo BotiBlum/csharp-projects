@@ -22,30 +22,30 @@ namespace Universidad
             Console.WriteLine("Cantidad Empleados: ["+nomina.Count()+"]");
 
             List<string> listaPalabras = new List<string>();
-            Console.WriteLine("Lista de Palabras: ["+listaPalabras.Count()+"]");
+           // Console.WriteLine("Lista de Palabras: ["+listaPalabras.Count()+"]");
             listaPalabras.Add("Hola");
             listaPalabras.Add("Mundo");
-            Console.WriteLine("Lista de Palabras: ["+listaPalabras.Count()+"]");
+           // Console.WriteLine("Lista de Palabras: ["+listaPalabras.Count()+"]");
 
             List<Object> listaObjectos = new List<object>();
-            Console.WriteLine("Lista de Objetos: ["+listaObjectos.Count()+"]");
+           // Console.WriteLine("Lista de Objetos: ["+listaObjectos.Count()+"]");
             listaObjectos.Add("Programacion C#");
             listaObjectos.Add(987652345674345465);
             listaObjectos.Add("anything");
             listaObjectos.Add(true);
             listaObjectos.Add(emp1);
-            Console.WriteLine("Lista de Objetos: ["+listaObjectos.Count()+"]");
+          //  Console.WriteLine("Lista de Objetos: ["+listaObjectos.Count()+"]");
             
 
             // Console.WriteLine("EJORNADA: "+EJornada.Completa);
             Empleado emp2;
-            emp2 = new Administrativo(0.07m, per1);
-            Console.WriteLine("EMP2: "+emp2.ToString());
+            emp2 = new Administrativo(.07m, per1);
+          //  Console.WriteLine("EMP2: "+emp2.ToString());
 
             Empleado empleadoCoercion;
             empleadoCoercion = new Administrativo(per2, EJornada.Completa, 0.2m);
             empleadoCoercion.setSalary(2500000);
-            Console.WriteLine("empleadoCoercion: "+empleadoCoercion.ToString());
+         //   Console.WriteLine("empleadoCoercion: "+empleadoCoercion.ToString());
 
             // CREAR COERCION PARA ESTUDIANTE
 
@@ -64,13 +64,13 @@ namespace Universidad
             //Administrativo adm2 = new Administrativo(12345678,emp1,per1);
             //Console.WriteLine("Administrativo 1: "+horario[0].getNombreJornada());
             //Administrativo adm1 = new Administrativo(0.15m,emp1,per1,EJornada.Media);
-            Console.WriteLine("adm1: "+adm1);
+           // Console.WriteLine("adm1: "+adm1);
 
 
 
             if (adm1 is Administrativo)
             {
-                Console.WriteLine("ADM1 is Administrativo");
+            //    Console.WriteLine("ADM1 is Administrativo");
             }
 
             adm1.CalcularSueldo(.07m, .1145m); // 7% Salud, 11,45% AFP Provida
@@ -126,16 +126,16 @@ namespace Universidad
                if (item is Empleado)
                {
                     // Castear si es empleado
-                    Console.WriteLine("$"+((Empleado)item).getNameLastname());
-                    Console.WriteLine("$"+((Empleado)item).getSalary());
+              //      Console.WriteLine("$"+((Empleado)item).getNameLastname());
+               //     Console.WriteLine("$"+((Empleado)item).getSalary());
                }
                else if (item is Persona)
                {
-                    Console.WriteLine("$"+((Persona)item).getFechaNacimiento());
+                //    Console.WriteLine("$"+((Persona)item).getFechaNacimiento());
                }
                else 
                {
-                    Console.WriteLine("#"+item.ToString());
+               //     Console.WriteLine("#"+item.ToString());
                }
                 
             }
@@ -150,14 +150,34 @@ namespace Universidad
 
             int valor;
             valor = empleadoCoercion.getSalary();
-            Console.WriteLine($"{empleadoCoercion.getNameLastname()}: "+valor);
+         //   Console.WriteLine($"{empleadoCoercion.getNameLastname()}: "+valor);
 
 
+
+            /*
+
+            Incluye las sentencias que le permitirán calcular el sueldo a las referencias adm2 y per4, que fueron mostradas anteriormente.
+Agrega dos administrativos más y 3 docentes. Realiza las invocaciones para calcular el sueldo de cada uno de ellos.
+
+            ademas realizar p38 Actividad Formativa MA06_003, MA06_004 y Laboratorio Ma06
+
+            Realizar MA07_001
+            Actividad Formativa MA07_002
+            */
             if (emp2 is Administrativo)
             {
                 Administrativo adm2 = (Administrativo)emp2;
                 //adm2.CalcularSueldo();
+                adm2.CalcularSueldo(.07m,.1114m);
+            Console.WriteLine("ADM2 CASTING: "+adm2.ToString());
             }
+            if (empleadoCoercion is Administrativo)
+            {
+                Administrativo adm3 = (Administrativo) empleadoCoercion;
+                adm3.CalcularSueldo(.07m,.1114m);
+              //  Console.WriteLine("ADM3: "+adm3.ToString());
+            }
+
 
             Console.WriteLine("VIRTUAL");
             Console.WriteLine("VIRTUAL 1: "+per2.quienSoy());
