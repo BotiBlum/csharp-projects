@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    ".NETCoreApp,Version=v3.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "/Users/p.vergarayalmontes/.nuget/packages/": {}
@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U3-MA08-01/U3-MA08-01.csproj",
-      "projectName": "U3-MA08-01",
-      "projectPath": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U3-MA08-01/U3-MA08-01.csproj",
+      "projectUniqueName": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U3-MA08-01/MA-08.csproj",
+      "projectName": "MA-08",
+      "projectPath": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U3-MA08-01/MA-08.csproj",
       "packagesPath": "/Users/p.vergarayalmontes/.nuget/packages/",
       "outputPath": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U3-MA08-01/obj/",
       "projectStyle": "PackageReference",
@@ -23,14 +23,14 @@
         "/Users/p.vergarayalmontes/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,8 +41,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -54,6 +54,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[3.1.32, 3.1.32]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

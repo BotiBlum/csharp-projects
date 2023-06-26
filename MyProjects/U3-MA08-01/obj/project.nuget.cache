@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PX4oZuDjTOJzqlrxY+V8yqr8lWmVBKXmTQIFWTAd1qB63PMe26qX7JwXWsBubC8tXrTR53H70NNTrMHMtPdaIA==",
+  "dgSpecHash": "diIn1zfon9md8XL14EV88B8eoSzB0SonWoug9rdxfM0rKVe5OlC8G0BuqohjxogZeZflW/XCRAZd4g0251LKBQ==",
   "success": true,
-  "projectFilePath": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U3-MA08-01/U3-MA08-01.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/U3-MA08-01/MA-08.csproj",
+  "expectedPackageFiles": [
+    "/Users/p.vergarayalmontes/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
