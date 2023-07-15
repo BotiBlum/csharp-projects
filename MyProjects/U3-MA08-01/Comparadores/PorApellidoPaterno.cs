@@ -10,17 +10,17 @@ namespace MA_08.Comparadores
         {
         }
 
-        public int Compare(object _x, object _y)
+        public int Compare(Object obj1, Object obj2)
         {
-            Console.WriteLine("Estamos comparando objetos "+_x+" y " +_y);
-            if (_x == null || _y == null)
+            Console.WriteLine("Estamos comparando objetos "+obj1+" y " +obj2);
+            if (obj1 == null || obj2 == null)
             {
                 return 0;
             }
-            if (_x is Persona && _y is Persona)
+            if (obj1 is Persona && obj2 is Persona)
             {
-                Persona p1 = (Persona)_x;
-                Persona p2 = (Persona)_y;
+                Persona p1 = (Persona)obj1;
+                Persona p2 = (Persona)obj2;
                 return p1.getApellidoPaterno().CompareTo(p2.getApellidoPaterno());
                 //return -99;
             }

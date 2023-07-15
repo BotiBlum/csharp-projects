@@ -51,6 +51,7 @@ namespace MA_08.EjemploPersonas
 
               Array.Sort(_lista, new PorApellidoPaterno());
             
+            
         }
         public void ordenarPorApellidoMaterno(Persona[] _lista)
         {

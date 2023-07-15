@@ -26,7 +26,10 @@ namespace MA_08
         {
             return ejeY;
         }
+        public string InstanceName { get; set;}
 
+
+        // Creacion de CompareTo una vez definida la interface IComparable
         public int CompareTo(object _obj)
         {
             if (_obj == null)

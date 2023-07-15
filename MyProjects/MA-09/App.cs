@@ -112,8 +112,8 @@ namespace MA09
             // probarGenericas();
             Console.WriteLine("No nos interesa las pruebas genericas");
 
-            /*
-            Boleta bol1 = new Boleta(10, 1000, new DateTime()));
+            
+            Boleta bol1 = new Boleta(10, 1000, new DateTime());
             Console.WriteLine(bol1.ToString());
 
             Caja<Boleta> cajaBoletas0 = new Caja<Boleta>(new Boleta (10, 1000, new DateTime()));
@@ -126,9 +126,9 @@ namespace MA09
             cajaBoletas2.guardar(new Boleta(20,2000, new DateTime()));
             cajaBoletas2.verificarCaja("caja de boletas 1");
             
-            output
-            Contenido Caja de boletas
-            Boletas XXX Monto XXX Fecha XXXXXXX
+            //output
+            //Contenido Caja de boletas
+            //Boletas XXX Monto XXX Fecha XXXXXXX
             Console.WriteLine("Este es el contenido Caja de Boletas2");
             Console.WriteLine(cajaBoletas1.sacar().ToString());
 
@@ -144,7 +144,7 @@ namespace MA09
             misPuntos[2] = new Punto(2, 1);
             
 
-            */
+            
         }       
     }
 }

@@ -20,6 +20,7 @@ namespace MA_08.EjemploPersonas
             listaPersonas[3] = new Persona("4-4", "Christian", "Carmona", "Mendoza");
 
             //listaPersonasPorApellidoPaterno = listaPersonas;
+            // Copia en distinta memoria 
             int i=0;
             foreach (Persona p in listaPersonas)
             {
@@ -28,14 +29,17 @@ namespace MA_08.EjemploPersonas
             }
             // END   -- ARREGLO DE PERSONAS
             
-            Console.WriteLine("Original");
+            Console.WriteLine("\nOriginal");
             foreach (Persona p in listaPersonas)
             {
                 Console.WriteLine(p.ToString());
             }
 
-            // ORDNEADA POR APELLIDO PATERNO   
-            Console.WriteLine("Ordenada Por Apellido Paterno");
+            //####################################
+            
+            
+            // ORDENADA POR APELLIDO PATERNO   
+            Console.WriteLine("\nOrdenada Por Apellido Paterno");
 
             //listaPersonas[0].ordenarPorApellidos(listaPersonas);
             // Llamada al objeto persona, no es necesario pasar parametros
@@ -46,9 +50,10 @@ namespace MA_08.EjemploPersonas
                 Console.WriteLine(p.ToString());
             }
 
+            //####################################
             
-            // ORDNEADA POR APELLIDO MATERNO  
-            Console.WriteLine("Ordenada Por Apellido Materno");
+            // ORDENADA POR APELLIDO MATERNO  
+            Console.WriteLine("\nOrdenada Por Apellido Materno");
 
             //listaPersonas[0].ordenarPorApellidos(listaPersonas);
             // Llamada al objeto persona, no es necesario pasar parametros
@@ -59,8 +64,10 @@ namespace MA_08.EjemploPersonas
                 Console.WriteLine(p.ToString());
             }
 
-            // ORDNEADA POR NOMBRE 
-            Console.WriteLine("Ordenada Por Nombre");
+            //####################################
+            
+            // ORDENADA POR NOMBRE 
+            Console.WriteLine("\nOrdenada Por Nombre");
 
             //listaPersonas[0].ordenarPorApellidos(listaPersonas);
             // Llamada al objeto persona, no es necesario pasar parametros
@@ -70,8 +77,10 @@ namespace MA_08.EjemploPersonas
             {
                 Console.WriteLine(p.ToString());
             }
-            // ORDNEADA POR RUT
-            Console.WriteLine("Ordenada Por RUT");
+            
+            //####################################
+            // ORDENADA POR RUT
+            Console.WriteLine("\nOrdenada Por RUT");
 
             //listaPersonas[0].ordenarPorApellidos(listaPersonas);
             // Llamada al objeto persona, no es necesario pasar parametros
