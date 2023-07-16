@@ -1,0 +1,15 @@
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/bin/Debug/net7.0/FlowControl
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/bin/Debug/net7.0/FlowControl.deps.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/bin/Debug/net7.0/FlowControl.runtimeconfig.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/bin/Debug/net7.0/FlowControl.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/bin/Debug/net7.0/FlowControl.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/FlowControl.csproj.AssemblyReference.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/FlowControl.GeneratedMSBuildEditorConfig.editorconfig
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/FlowControl.AssemblyInfoInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/FlowControl.AssemblyInfo.cs
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/FlowControl.csproj.CoreCompileInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/FlowControl.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/refint/FlowControl.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/FlowControl.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/FlowControl.genruntimeconfig.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/FlowControl/obj/Debug/net7.0/ref/FlowControl.dll
