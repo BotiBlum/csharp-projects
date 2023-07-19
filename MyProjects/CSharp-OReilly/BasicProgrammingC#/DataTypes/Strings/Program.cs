@@ -32,8 +32,8 @@ namespace StringManipulationLecture
 
 
             myString = "This is fun!";
-            Console.WriteLine(myString.Substrings(5));  // outputs "is fun!"
-            Console.WriteLine(myString.Substrings(5, 2)); // outputs "is"
+           // Console.WriteLine(myString.Substrings(5));  // outputs "is fun!"
+           // Console.WriteLine(myString.Substrings(5, 2)); // outputs "is"
 
             myString = "This is fun!";
             Console.WriteLine(myString.Remove(5)); // outputs "This "
