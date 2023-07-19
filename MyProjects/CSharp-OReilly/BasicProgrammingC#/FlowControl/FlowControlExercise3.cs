@@ -8,7 +8,7 @@ namespace FlowControlExercise3
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main_(string[] args)
         {
             string likesPizza;
             bool validResponse;

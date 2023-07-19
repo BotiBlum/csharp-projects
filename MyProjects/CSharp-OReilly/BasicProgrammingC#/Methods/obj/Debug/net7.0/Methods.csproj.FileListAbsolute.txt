@@ -1,0 +1,15 @@
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/bin/Debug/net7.0/Methods
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/bin/Debug/net7.0/Methods.deps.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/bin/Debug/net7.0/Methods.runtimeconfig.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/bin/Debug/net7.0/Methods.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/bin/Debug/net7.0/Methods.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/Methods.csproj.AssemblyReference.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/Methods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/Methods.AssemblyInfoInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/Methods.AssemblyInfo.cs
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/Methods.csproj.CoreCompileInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/Methods.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/refint/Methods.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/Methods.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/Methods.genruntimeconfig.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/Methods/obj/Debug/net7.0/ref/Methods.dll
