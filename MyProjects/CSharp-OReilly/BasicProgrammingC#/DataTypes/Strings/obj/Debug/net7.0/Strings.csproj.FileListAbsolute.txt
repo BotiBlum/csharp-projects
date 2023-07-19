@@ -1,0 +1,15 @@
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/bin/Debug/net7.0/Strings
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/bin/Debug/net7.0/Strings.deps.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/bin/Debug/net7.0/Strings.runtimeconfig.json
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/bin/Debug/net7.0/Strings.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/bin/Debug/net7.0/Strings.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/Strings.csproj.AssemblyReference.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/Strings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/Strings.AssemblyInfoInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/Strings.AssemblyInfo.cs
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/Strings.csproj.CoreCompileInputs.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/Strings.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/refint/Strings.dll
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/Strings.pdb
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/Strings.genruntimeconfig.cache
+/Users/p.vergarayalmontes/Projects/csharp-projects/MyProjects/CSharp-OReilly/BasicProgrammingC#/DataTypes/Strings/obj/Debug/net7.0/ref/Strings.dll
