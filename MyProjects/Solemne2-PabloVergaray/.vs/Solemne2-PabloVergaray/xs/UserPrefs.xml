@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{BF76BF1E-840D-4BFE-A203-C17ACE464F7B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Solemne2-PabloVergaray PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Aplicaciones/Program.cs">
+    <Files>
+      <File FileName="Colecciones/Biblioteca.cs" Line="17" Column="1" />
+      <File FileName="Aplicaciones/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Solemne2-PabloVergaray" expanded="True">
+            <Node name="Solemne2-PabloVergaray" expanded="True">
+              <Node name="Aplicaciones" expanded="True">
+                <Node name="Program.cs" selected="True" />
+              </Node>
+              <Node name="Clases" expanded="True" />
+              <Node name="Colecciones" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
